@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Daftar proyek teknis Ade Setya Pambudi — Linux, Microservices, OWASP">
+    <title>Ade Setya Pambudi | Projects</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <!-- ===== NAVBAR ===== -->
+    <header>
+        <nav class="navbar" role="navigation" aria-label="Navigasi Utama">
+            <div class="container">
+                <a href="index.html" class="navbar__brand">
+                    <div class="navbar__logo-icon">ASP</div>
+                    <span>Ade<span>.</span>dev</span>
+                </a>
+                <ul class="navbar__nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="projects.html" class="active" aria-current="page">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ===== MAIN ===== -->
+    <main>
+        <section class="projects-section" aria-labelledby="projects-heading">
+            <div class="container">
+                <h1 class="section-title" id="projects-heading">Proyek Teknis</h1>
+                <p class="section-subtitle">Kumpulan proyek riset dan pengembangan yang telah saya kerjakan.</p>
+
+                <div class="cards-grid">
+
+                    <!-- Proyek 1 -->
+                    <article class="project-card" aria-labelledby="proj1-title">
+                        <div class="project-card__header">
+                            <div class="project-card__icon" aria-hidden="true">&#x1F427;</div>
+                            <span class="project-card__status status--done">Selesai</span>
+                        </div>
+                        <h2 class="project-card__title" id="proj1-title">
+                            Eksplorasi Lingkungan Kali Linux
+                        </h2>
+                        <p class="project-card__desc">
+                            Dokumentasi komprehensif tentang setup dan penggunaan Kali Linux sebagai platform pengujian keamanan. Mencakup konfigurasi jaringan, penggunaan tools seperti Nmap, Metasploit, dan Wireshark, serta simulasi skenario penetration testing dalam lingkungan laboratorium yang terisolasi.
+                        </p>
+                        <div class="project-card__tags" aria-label="Teknologi yang digunakan">
+                            <span class="tag">Kali Linux</span>
+                            <span class="tag">Bash</span>
+                            <span class="tag">Nmap</span>
+                            <span class="tag">Metasploit</span>
+                            <span class="tag">Wireshark</span>
+                        </div>
+                    </article>
+
+                    <!-- Proyek 2 -->
+                    <article class="project-card" aria-labelledby="proj2-title">
+                        <div class="project-card__header">
+                            <div class="project-card__icon" aria-hidden="true">&#x1F40D;</div>
+                            <span class="project-card__status status--progress">Berlangsung</span>
+                        </div>
+                        <h2 class="project-card__title" id="proj2-title">
+                            Simulasi Arsitektur Microservices dengan Python
+                        </h2>
+                        <p class="project-card__desc">
+                            Implementasi sistem berbasis Microservices menggunakan Python (FastAPI) yang terdiri dari beberapa service independen — Auth Service, Product Service, dan Order Service. Setiap service dikontainerisasi dengan Docker dan berkomunikasi melalui REST API, mensimulasikan pola arsitektur produksi nyata.
+                        </p>
+                        <div class="project-card__tags" aria-label="Teknologi yang digunakan">
+                            <span class="tag">Python</span>
+                            <span class="tag">FastAPI</span>
+                            <span class="tag">Docker</span>
+                            <span class="tag">REST API</span>
+                            <span class="tag">PostgreSQL</span>
+                        </div>
+                    </article>
+
+                    <!-- Proyek 3 -->
+                    <article class="project-card" aria-labelledby="proj3-title">
+                        <div class="project-card__header">
+                            <div class="project-card__icon" aria-hidden="true">&#x1F512;</div>
+                            <span class="project-card__status status--done">Selesai</span>
+                        </div>
+                        <h2 class="project-card__title" id="proj3-title">
+                            Analisis OWASP Top 10
+                        </h2>
+                        <p class="project-card__desc">
+                            Studi mendalam terhadap sepuluh kerentanan keamanan aplikasi web paling kritis versi OWASP 2021. Proyek ini mencakup demonstrasi proof-of-concept untuk setiap kerentanan (Injection, Broken Auth, XSS, IDOR, dll.) pada aplikasi uji coba yang sengaja rentan seperti DVWA, serta rekomendasi mitigasinya.
+                        </p>
+                        <div class="project-card__tags" aria-label="Teknologi yang digunakan">
+                            <span class="tag">OWASP</span>
+                            <span class="tag">DVWA</span>
+                            <span class="tag">Burp Suite</span>
+                            <span class="tag">SQL Injection</span>
+                            <span class="tag">XSS</span>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <p>&copy; 2025 <span class="footer__name">Ade Setya Pambudi</span> &mdash; Informatika, UTDI</p>
+        <nav class="footer__links" aria-label="Footer navigasi">
+            <a href="index.html">Home</a>
+            <a href="About.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </footer>
+
+</body>
+</html>
